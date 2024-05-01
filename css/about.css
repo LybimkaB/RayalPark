@@ -1,0 +1,11 @@
+.about-container {
+  overflow: hidden;
+  display: grid;
+  gap: 2rem;
+}
+
+.about-img img {
+  max-width: 450px;
+  margin: auto;
+  border-radius: 5px;
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отель для бронирования путешествий | Rayal Park</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/room.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav>
+            <div class="nav-bar">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
+                </div>
+
+                <div class="nav-menu-btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#service">Сервис</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+
+                <button class="btn nav-btn">Оставить заявку</button>
+            </div>
+        </nav>
+        <div class="section-container header-container" id="home">
+            <p>Простой - Уникальный - Комфортный</p>
+            <h1>Будьте как дома<br>В нашем <span>Отеле</span>.</h1>
+        </div>
+    </header>
+
+    <section class="section-container booking-container">
+        <form action="/" class="booking-form">
+            <div class="input-group">
+                <span><i class="ri-calendar-2-fill"></i></span>
+                <div>
+                    <label for="chek-in">Заезд</label>
+                    <input type="text" placeholder="Дата заезда">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <span><i class="ri-calendar-2-fill"></i></span>
+                <div>
+                    <label for="chek-out">Выезд</label>
+                    <input type="text" placeholder="Дата выезда">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <span><i class="ri-user-fill"></i></span>
+                <div><label for="guest">Гость</label>
+                    <input type="text" placeholder="Имя гостя">
+                </div>
+            </div>
+
+            <div class="input-group input-btn">
+                <button class="btn">Забронировать</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="section-container about-container" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="about">
+        </div>
+
+        <div class="about-content">
+            <p class="section-subheader">О нас</p>
+            <h2 class="section-header">Лучшие каникулы начинаются здесь!</h2>
+            <p class="section-description">
+                Уделяя особое внимание качественному размещению, персонализированным
+                впечатлениям и бесперебойному бронированию, наша платформа стремится к тому, чтобы каждый путешественник
+                отправлялся в отпуск своей мечты с уверенностью и волнением.
+            </p>
+            <div class="about-btn">
+                <button class="btn">Читать больше</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container room-container">
+        <p class="section-subheader">НАШИ НОМЕРА</p>
+        <h2 class="section-header">Здесь начинаются Самый незабываемый Отдых.</h2>
+
+        <div class="room-grid">
+            <div class="room-card">
+                <div class="room-card-img">
+                    <img src="img/room-1.png" alt="room">
+                    <div class="room-card-icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room-card-details">
+                    <h4>Роскошный вид на океан</h4>
+                    <p>Насладитесь роскошью с захватывающим вдиом на океан из вашего отдельного люкса.</p>
+                    <h5>Стоимость начинается от <span>2990Р/ночь</span></h5>
+                    <button class="btn">Забронировать</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-card-img">
+                    <img src="img/room-2.png" alt="room">
+                    <div class="room-card-icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room-card-details">
+                    <h4>Представительский номер с городским пейзажем</h4>
+                    <p>Ощутите городскую элегантность и современный комфорт в самом центре города.</p>
+                    <h5>Стоимость начинается от <span>1990Р/ночь</span></h5>
+                    <button class="btn">Забронировать</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-card-img">
+                    <img src="img/room-1.png" alt="room">
+                    <div class="room-card-icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room-card-details">
+                    <h4>Семейный отдых в саду</h4>
+                    <p>Просторный и уютный, идеально подходит для создания приятных воспоминаний с близкими людьми.</p>
+                    <h5>Стоимость начинается от <span>2490Р/ночь</span></h5>
+                    <button class="btn">Забронировать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="section-container service-container">
+            <div class="service-content">
+                <p class="section-subheader">Сервис</p>
+                <h2 class="section-header">Стремитесь Только К Лучшему</h2>
+                <ul class="service-list">
+                    <li>
+                        <span>
+                            <i class="ri-shield-star-line"></i>
+                        </span>
+                        Первоклассная Охрана
+                    </li>
+
+                    <li>
+                        <span>
+                            <i class="ri-24-hours-line"></i>
+                        </span>
+                        Круглосуточное Обслуживание Номеров
+                    </li>
+
+                    <li>
+                        <span>
+                            <i class="ri-headphone-line"></i>
+                        </span>
+                        Конференц-Зал
+                    </li>
+
+                    <li>
+                        <span>
+                            <i class="ri-map-2-line"></i>
+                        </span>
+                        Поддержка Гида
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container banner-container">
+        <div class="banner-content">
+            <div class="banner-card">
+                <h4>25+</h4>
+                <p>Доступные объекты недвижимости</p>
+            </div>
+
+            <div class="banner-card">
+                <h4>350+</h4>
+                <p>Бронирование завершено></p>
+            </div>
+
+            <div class="banner-card">
+                <h4>600+</h4>
+                <p>Довольные клиенты</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <p class="section-subheader">Отзывы</p>
+        <h2 class="section-header">Отзывы клиентов</h2>
+        <div class="container">
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-img">
+                        <img src="img/man.png" alt="John Doe" width="300" height="300">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia
+                            nesciunt nobis
+                            accusantium?
+                            Asperiores voluptas ratione veniam. Fuga nostrum tenetur aperiam possimus ut nisi earum
+                            repellendus unde molestias! Rem, possimus?
+                        </p>
+                    </div>
+                    <p class="testimonial-author">- John Doe</p>
+                </div>
+            </div>
+
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-img">
+                        <img src="img/man.png" alt="Jane Smith" width="300" height="300">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos eos cumque voluptates! Iste,
+                            enim
+                            perspiciatis debitis dolorum eum perferendis! Eius.
+                        </p>
+                    </div>
+                    <p class="testimonial-author">- Jane Smith</p>
+                </div>
+            </div>
+
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-img">
+                        <img src="img/man.png" alt="Ann Kim" width="300" height="300">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero eos, libero tenetur deserunt
+                            cupiditate delectus. Corporis quis tempore ratione vero officia recusandae assumenda
+                            asperiores dicta.
+                        </p>
+                    </div>
+                    <p class="testimonial-author">- Ann Kim</p>
+                </div>
+            </div>
+
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-img">
+                        <img src="img/man.png" alt="Kate Biber" width="300" height="300">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis aspernatur
+                            culpa totam tempore minus, temporibus ipsa, dignissimos excepturi omnis soluta laboriosam
+                            quisquam nihil numquam. Maiores quam magni tenetur assumenda atque incidunt fugiat
+                            recusandae deleniti.
+                        </p>
+                    </div>
+                    <p class="testimonial-author">- Kate Biber</p>
+                </div>
+            </div>
+
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-img">
+                        <img src="img/man.png" alt="Bob Smith" width="300" height="300">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, iusto qui reiciendis quia
+                            harum fuga natus aut perferendis dolores saepe inventore architecto eius molestiae tempore
+                            ad aperiam nemo, est fugiat voluptatem illo assumenda dolorum omnis numquam. Similique
+                            minima totam aspernatur.
+                        </p>
+                    </div>
+                    <p class="testimonial-author">- Bob Smith</p>
+                </div>
+            </div>
+            <div class="testimonial-btn">
+                <button class="prev-btn"><i class="ri-arrow-left-line"></i></button>
+                <button class="next-btn"><i class="ri-arrow-right-line"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <p class="section-subheader">Контакты</p>
+        <h2 class="section-header">Мы ждем Вашего звонка.</h2>
+        <div class="contact-bg">
+            <div class="contact-content">
+                <h2 class="section-header">Оставить заявку</h2>
+                <form action="/" id="contactForm">
+                    <div>
+                        <label for="name">Выше имя:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Ваша почта:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="message">Сообщение:</label>
+                        <textarea name="message" id="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="section-container footer-container">
+            <div class="footer-col">
+                <div class="logo">
+                    <a href="#home"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <p class="section-description">
+                    Откройте для себя мир комфорта,
+                    роскоши и приключений, исследуя его
+                    наш тщательно подобранный выбор отелей,
+                    который сделает каждое мгновение вашего отдыха
+                    по-настоящему незабываемым.
+                </p>
+                <button class="btn">Забронировать</button>
+            </div>
+            <div class="footer-col">
+                <h4>БЫСТРЫЕ ССЫЛКИ</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Просматривайте пункты назначения</a></li>
+                    <li><a href="#">Специальные предложения и пакеты</a></li>
+                    <li><a href="#">Типы номеров и удобства</a></li>
+                    <li><a href="#">Отзывы клиентов и рейтинги</a></li>
+                    <li><a href="#">Советы по путешествиям и путеводители</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>НАШИ УСЛУГИ</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Помощь консьержа</a></li>
+                    <li><a href="#">Гибкие варианты бронирования</a></li>
+                    <li><a href="#">Трансфер из аэропорта</a></li>
+                    <li><a href="#">Оздоровление и отдых</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>СВЯЗАТЬСЯ С НАМИ</h4>
+                <ul class="footer-links">
+                    <li><a href="#">ivanmantur@gmail.com</a></li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="#"><i class="ri-vk-fill"></i></a>
+                    <a href="#"><i class="ri-telegram-fill"></i></a>
+                    <a href="#"><i class="ri-tiktok-fill"></i></a>
+                    <a href="#"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https:/unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
